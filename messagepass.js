@@ -1,37 +1,3 @@
-//
-//document.getElementById("button").onclick = function() {lastValue(); };
-//
-//var input = document.getElementById("text");
-//input.addEventListener("keyup", function(event) {
-//    if (event.keyCode === 13) {
-//        event.preventDefault();
-//        document.getElementById("button").click();
-//    }
-//});
-//
-//
-////setTimeout(function () {document.getElementById('msg').style.display='none'}, 2000);
-//
-//function lastValue(){
-//
-//    var x = document.getElementById("text").value;
-//
-//    if( x === ""){
-//        setTimeout(function () {
-//            document.getElementById('msg').style.display='none';
-//        }, 1000);
-//
-//        document.getElementById("msg").textContent = "Enter something";
-//        document.getElementById("data").textContent = "This is what you have entered";
-//    }else{
-//        document.getElementById("msg").textContent = "";
-//        document.getElementById("data").textContent = x;
-//
-//        setTimeout(function () {document.getElementById('msg').style.display='none'}, 2000);
-//    }
-//
-//}
-
 
 (function() {
     //Select the input element
